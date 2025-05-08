@@ -60,7 +60,8 @@ const calculadora = (valor) => {
             }
 
         }else{
-            console.log('Expresión mal formada')
+            input.value = 'Expresión mal formada'
+            return
         }
         
         op2 = op2.replaceAll(')(', ')*(')
@@ -70,7 +71,6 @@ const calculadora = (valor) => {
         }else{
             op3 = op2 + parseFloat(numero)
         }
-        console.log(op2, op3)
         input.value = numero == '' ? eval(op2) : eval(op3)
         op = ''
         op2 = ''
@@ -80,4 +80,5 @@ const calculadora = (valor) => {
         op = ''
         numero = ''
     }
+    input.scrollLeft = input.scrollWidth;
 }
