@@ -8,8 +8,6 @@ Este proyecto es una **calculadora** desarrollada como parte de mi aprendizaje e
 - CSS
 - JavaScript
 
-> También puedes adaptarlo si usaste otro lenguaje o framework (por ejemplo: Python, React, etc.)
-
 ## 💡 Funcionalidades
 
 - Suma, resta, multiplicación y división.
